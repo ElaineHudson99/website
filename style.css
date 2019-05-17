@@ -11,6 +11,7 @@ body {
   font-family: "slabo 27px";
   font-size: 25px;
   margin: 40px;
+  background-image: url(images/pour.jpg);
 }
 
 header, section, footer {
@@ -114,4 +115,16 @@ img {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/oceancustom.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner p {
+  font-size: 50px;
+  text-align: center;
 }
